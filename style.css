@@ -23,7 +23,7 @@ nav {
   align-items: center;
   padding: 20px;
   width: 90%;
-    margin: 0 auto;
+  margin: 0 auto;
   /* border: 2px solid teal; */
   margin: 0 auto;
   background-color: #fff;
@@ -136,7 +136,7 @@ p {
   padding: 20px 100px;
   /* border: 1px solid darkblue; */
   width: 90%;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .about-img img {
   width: 568px;
@@ -176,9 +176,9 @@ p {
 /* @@@@@----about end css----@@@@  */
 
 /* ###------card start css-----#### */
-.card-container{ 
+.card-container {
   /* border: 1px solid rebeccapurple; */
-  width:90% ;
+  width: 90%;
   margin: 0 auto;
 }
 .card-container h1 {
@@ -187,7 +187,6 @@ p {
   font-weight: 700;
   color: #0b0223;
   margin: 10px;
-  
 }
 .card-container h1 span {
   text-align: center;
@@ -236,7 +235,6 @@ p {
   transform: translate(-70%, -50%);
   -ms-transform: translate(-70%, -50%);
   text-align: center;
-  
 }
 .icon {
   top: 50%;
@@ -247,7 +245,6 @@ p {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
- 
 }
 .card-img:hover .overlay {
   opacity: 1;
@@ -269,9 +266,8 @@ p {
   justify-content: space-around;
   align-items: center;
   width: 90%;
-  height:100vh;
+  height: 100vh;
   margin: 20px auto;
-
 }
 .poster-doc,
 h1,
@@ -302,7 +298,6 @@ p {
 /* *****------poster css end-----***** */
 /* &&&&&------game css start ------&&&& */
 .game {
-  
   display: flex;
   align-items: center;
   gap: 4px;
@@ -320,97 +315,92 @@ p {
   color: #f948b2;
 }
 .game-iteam {
- 
   width: 90%;
   margin: 0 auto;
 
- display: grid;
- padding: 40px;
+  display: grid;
+  padding: 40px;
 }
 
 .game-iteam-1 {
-display: grid;
-grid-template-columns: repeat(5,1fr);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   margin-bottom: 20px;
 }
 
-
-
 /* &&&&&------game css end ------&&&& */
 /* #######-------Footer strat------####### */
-.footer-container{ 
-  background-color: #0B0223;
-  width:70%;
+.footer-container {
+  background-color: #0b0223;
+  width: 100%;
   height: 300px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
-.footer-logo{ 
+.footer-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4px;
   padding: 10px;
 }
-.footer-logo span{ 
+.footer-logo span {
   color: #f948b2;
 }
-.footer-logo h1{ 
+.footer-logo h1 {
   color: #fff;
 }
-.footer-link ul li a{
+.footer-link ul li a {
   text-decoration: none;
   color: #fcf7fd;
 }
-.footer-link ul li{ 
+.footer-link ul li {
   list-style-type: none;
 }
-.footer-link ul{ 
+.footer-link ul {
   display: grid;
-  grid-template-columns:repeat(6,1fr) ;
+  grid-template-columns: repeat(6, 1fr);
   place-content: center;
 }
-.footer-icon{ 
- 
+.footer-icon {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
-.footer-icon a{ 
+.footer-icon a {
   color: #fff;
   font-size: 32px;
 }
-.footer-team ul li{ 
-list-style-type: none;
-
+.footer-team ul li {
+  list-style-type: none;
 }
-.footer-team ul li a{ 
+.footer-team ul li a {
   text-decoration: none;
   color: #fff;
- 
 }
-.footer-team ul{ 
+.footer-team ul {
   display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
-.footer-parent h4{ 
+.footer-parent h4 {
   color: #fcf7fd;
   text-align: center;
-  
 }
-.footer-doc{ 
-  width: 700px; 
-  
+.footer-doc {
+  width: 700px;
+
   padding: 20px;
   margin: 10px auto;
 }
-.footer-link,.footer-icon,.footer-team{ 
+.footer-link,
+.footer-icon,
+.footer-team {
   margin-bottom: 20px;
 }
 
 /* #######-------Footer end------####### */
 
 /* -----responsive for tab style start here ----- */
-@media (max-width:576px) {
+@media (max-width: 576px) {
   nav {
     flex-direction: column;
 
@@ -418,148 +408,147 @@ list-style-type: none;
   }
   .nav-links ul {
     flex-direction: column;
-  
+
     margin: 0 auto;
   }
   .banner-container {
     flex-direction: column-reverse;
-  
+
     margin: 0 auto;
   }
-  .about-container{ 
+  .about-container {
     flex-direction: column;
-   
+
     margin: 0 auto;
   }
-  .card{ 
+  .card {
     flex-direction: column;
-    
+
     margin: 0 auto;
   }
-  .poster-container{ 
+  .poster-container {
     flex-direction: column;
-  width: 90%;
-  margin: 100px auto ;
-   
+    width: 90%;
+    margin: 100px auto;
   }
-  .poster-img{ 
+  .poster-img {
     margin-right: 30px;
   }
-  .p-1 img{ 
-    width:200px ;
+  .p-1 img {
+    width: 200px;
     height: 300px;
-    
   }
-  .p-2 img{ 
+  .p-2 img {
     width: 150px;
     height: 200px;
   }
 
- 
-  .game-iteam-1{
- 
-  grid-template-columns: repeat(3,1fr);
-  margin: 100px auto;
-  
-  margin-right: 80px;
-}
-.game-img img { 
- font-size: 10px;
-}
-.game-name p{ 
-  font-size: 10px;
-}
-.footer-link ul li a { 
-  
-  grid-template-rows: repeat(2,1fr);
-}
-.footer-icon{ 
-  grid-template-columns: repeat(3,1fr);
-}
-.footer-team ul li a{ 
-  grid-template-columns: repeat(2,1fr);
-}.footer-container{ 
-  max-width: 80%;
+  .game-iteam-1 {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px auto;
+
+    margin-right: 80px;
+  }
+  .game-img img {
+    font-size: 10px;
+  }
+  .game-name p {
+    font-size: 10px;
+  }
+  .footer-link ul li a {
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .footer-icon {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-team ul li a {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-container {
+    max-width: 80%;
+  }
 }
 
-}
-
-@media (max-with:480px) {
+@media (max-with: 480px) {
   nav {
-      flex-direction: column;
- 
-      margin: 0 auto;
-    }
-  
-    .nav-links ul {
-      flex-direction: column;
-   
-      margin: 0 auto;
-    }
-  
-    .banner-container {
-      flex-direction: column-reverse;
-   
-      margin: 0 auto;
-    }
-  
-    .about-container {
-      flex-direction: column;
-      
-      margin: 0 auto;
-    }
-  
-    .card {
-      flex-direction: column;
-  
-      margin: 0 auto;
-    }
-  
-    .poster-container {
-      flex-direction: column;
-      width: 90%;
-      margin: 100px auto;
-  
-    }
-  
-    .poster-img {
-      margin-right: 30px;
-    }
-  
-    .p-1 img {
-      width: 200px;
-      height: 300px;
-  
-    }
-  
-    .p-2 img {
-      width: 150px;
-      height: 200px;
-    }
-  
-  
-    .game-iteam-1 {
-  
-      grid-template-columns: repeat(3, 1fr);
-      margin: 100px auto;
-      width: 90%;
-      margin-right: 80px;
-  
-  
-     
-  
-  
-    }
-  
-    .game-img img {
-      font-size: 10px;
-    }
-  
-    .game-name p {
-      font-size: 10px;
-    }
-  
-    
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+
+  .banner-container {
+    flex-direction: column-reverse;
+
+    margin: 0 auto;
+  }
+
+  .about-container {
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+
+  .card {
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
+
+  .poster-container {
+    flex-direction: column;
+    width: 90%;
+    margin: 100px auto;
+  }
+
+  .poster-img {
+    margin-right: 30px;
+  }
+
+  .p-1 img {
+    width: 200px;
+    height: 300px;
+  }
+
+  .p-2 img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .game-iteam-1 {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px auto;
+    width: 90%;
+    margin-right: 80px;
+  }
+
+  .game-img img {
+    font-size: 10px;
+  }
+
+  .game-name p {
+    font-size: 10px;
+  }
+  .footer-link ul li a {
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .footer-icon {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-team ul li a {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-container {
+    max-width: 80%;
+  }
 }
 
 /* -----responsive style end here ----- */
