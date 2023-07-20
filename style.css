@@ -24,7 +24,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 20px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   /* border: 2px solid teal; */
   margin: 0 auto;
@@ -95,7 +95,7 @@ nav {
 /* -----navbar end css----  */
 /*----------banner start css------ */
 .banner-container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -150,7 +150,7 @@ p {
   color: #534c64;
   padding: 20px 100px;
   /* border: 1px solid darkblue; */
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -347,7 +347,7 @@ p {
 .game:hover {
   border-radius: 40px;
   border: 2px solid #F948B2 ;
-  
+
 }
 
 .game:hover p {
