@@ -347,8 +347,7 @@ p {
 .game:hover {
   border-radius: 40px;
   border: 2px solid #F948B2 ;
-
-
+  
 }
 
 .game:hover p {
