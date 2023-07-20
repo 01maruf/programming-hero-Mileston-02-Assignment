@@ -10,7 +10,7 @@
 .banner-btn {
   padding: 21px 40px;
   background-color: #ff42a5;
-  font-size: 20px;
+  font-size: 22px;
   color: #fff;
   border-radius: 48px;
   border: none;
@@ -29,7 +29,7 @@ nav {
   /* border: 2px solid teal; */
   margin: 0 auto;
   background-color: #fff;
-  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 30px 1px rgba(0, 1, 1, 0.07);
 }
 
 .nav-links ul {
@@ -38,7 +38,7 @@ nav {
 
 .nav-links ul li a {
   text-decoration: none;
-  color: #3c354a;
+  color: #3d354a;
   text-align: center;
   font-family: Work Sans;
   font-size: 20px;
@@ -93,7 +93,7 @@ nav {
 }
 
 /* -----navbar end css----  */
-/*$$$$$$$$----------banner start css------$$$$$$$  */
+/*----------banner start css------ */
 .banner-container {
   width: 90%;
   margin: 0 auto;
@@ -140,8 +140,8 @@ p {
   margin-top: 60px;
 }
 
-/*$$$$$$$$----------banner end css------$$$$$$$  */
-/* @@@@@----about start css----@@@@  */
+/* --------banner end css------  */ 
+/* ----about start css---- */
 .about-container {
   display: flex;
   justify-content: space-between;
@@ -161,7 +161,7 @@ p {
 
 .about-text h1 {
     font-size: 47px;
-      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+      background: linear-gradient(181deg, #F948B2 0%, #8758F1 100%);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -193,9 +193,9 @@ p {
   margin-bottom: 20px;
 }
 
-/* @@@@@----about end css----@@@@  */
+/* ----about end css----  */
 
-/* ###------card start css-----#### */
+/* ------card start css----- */
 .card-container {
   /* border: 1px solid rebeccapurple; */
   width: 90%;
@@ -211,9 +211,8 @@ p {
 }
 
 .card-container h1 span {
-
-    font-size: 72px;
-  background: linear-gradient(180deg, #F957B2 0%, #8458F1 100%);
+background: linear-gradient(182deg, #F954B2 0%, #8450F1 100%);
+  font-size: 72px;
     -webkit-background-clip:text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -240,13 +239,13 @@ p {
 
 .overlay {
   position: absolute;
-  top: 0;
+  top:0;
   bottom: 100px;
-  left: 0;
-  right: 0;
+  left:0;
+  right:0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity:0;
   transition: 0.5s ;
   background-color: rgba(0, 1, 1, 0.274);
  
@@ -254,15 +253,14 @@ p {
 
 .overlay p {
   top: 155%;
-  left: 80%;
+  left: 82%;
   text-align: center;
-  font-weight: 400;
-  color: #f948b4;
+  font-weight: 800;
+  color: #f942b4;
   font-size: 18px;
   position: absolute;
-  transform: translate(-80%, -50%);
-  
-  
+  transform: translate(-80%, -52%);
+ 
 }
 
 .icon {
@@ -272,7 +270,7 @@ p {
   font-size: 30px;
    position: absolute;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -52%);
   text-align: center;
   
 }
@@ -291,8 +289,8 @@ p {
   height: auto;
 }
 
-/* ###------card end css-----#### */
-/* *****------poster css start-----***** */
+/* ------card end css----- */
+/* ------poster css start----- */
 .poster-container {
   display: flex;
   justify-content: space-around;
@@ -331,23 +329,26 @@ p {
   height: 300px;
 }
 
-/* *****------poster css end-----***** */
-/* &&&&&------game css start ------&&&& */
+/* ------poster css end----- */
+/* ------game css start ------ */
 .game {
   display: flex;
   align-items: center;
   gap: 4px;
   justify-content: center;
   align-content: center;
-  padding: 5px 0;
+  padding: 5px 5px;
   text-align: left;
   width: 90%;
+  border: 2px solid #fcf7fd;
+  border-radius: 40px;
 }
 
 .game:hover {
   border-radius: 40px;
+  border: 2px solid #F948B2 ;
 
-  background: #fff;
+
 }
 
 .game:hover p {
@@ -370,8 +371,8 @@ p {
   margin-bottom: 20px;
 }
 
-/* &&&&&------game css end ------&&&& */
-/* #######-------Footer strat------####### */
+/* ------game css end ------ */
+/* -------Footer strat------ */
 .footer-container {
   background-color: #0b0223;
   width: 100%;
@@ -453,7 +454,7 @@ p {
   margin-bottom: 20px;
 }
 
-/* #######-------Footer end------####### */
+/* -------Footer end----- */
 
 /* -----responsive for tab style start here ----- */
 @media screen and (max-width: 480px) {
